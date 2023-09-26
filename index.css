@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con .container {
+    border: 1px solid #dadada;
+   width:360px;
+   height: 250px;
+   text-align: center;
+   border-radius: 10px;
+    position: relative;
+   
+}
+.con {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+   
+}
+.con .container .span{
+    display: inline-block;
+    width:100%;
+    background-color: #ffdd40;
+    height: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.con .container input {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding:5px 20px;
+    margin-top: 50px;
+}
+.con .container .content {
+    margin-top: 40px;
+}
+.con .container .content button  {
+    position: relative;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #833ae0;
+    color: #fff;
+}
+.con .container .content .button-span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+   width: 32px;
+   height: 32px;
+   background-color: #9953f1;
+   border-radius: 50%;
+   right:103px;
+bottom: 1px;
+}
+ul  {
+    width: 180px;
+    height: 30px;
+    overflow: auto;
+    border-radius: 5px;
+}
+ul li {
+list-style-type: none;
+display: flex;
+justify-content: space-between;
+padding: 4px;
+
+}
+.delete  {
+    padding: 0 3px;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    background-color: #fff;
+    color:#dadada
+}
+.delete:hover {
+    background-color: #833ae0;
+}
+.con .container ul {
+    position: absolute;
+    right:89px;
+    top:140px
+}
+.i-class-div {
+position: relative;
+}
+.i-class-div i {
+position: absolute;
+top:30px;
+right:100px;
+color:#c4c4c4
+}
